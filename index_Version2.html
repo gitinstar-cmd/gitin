@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GITIN ARIFYSA FADILAH — Neon Blue Cyberpunk Portfolio</title>
+
+  <!-- Google Font (futuristic) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (toggle & social fallbacks) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-eZfM2sKk/..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Theme toggle -->
+  <header class="topbar">
+    <div class="brand">GITIN ARIFYSA FADILAH</div>
+    <button id="theme-toggle" class="toggle" aria-label="Toggle theme" title="Toggle Light / Dark">
+      <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="profile-wrap">
+        <!-- Avatar: AI kartun placeholder (ganti dengan AI cartoon image) -->
+        <img id="avatar" src="https://via.placeholder.com/420x420.png?text=AI+Cartoon+Avatar+-+Replace+Me" alt="Gitin Avatar (AI Cartoon)" class="avatar" />
+
+        <!-- Name -->
+        <h1 class="name">GITIN ARIFYSA FADILAH</h1>
+
+        <!-- Orbit container for icons (icons now realistic images) -->
+        <div id="orbit" class="orbit" aria-hidden="false">
+          <!-- Realistic icon placeholders (replace each with photorealistic AI icon) -->
+          <button class="orbit-item" data-target="about" aria-label="About Me">
+            <img class="real-icon" src="https://via.placeholder.com/120x120.png?text=Icon+Realistic+About" alt="About Icon (realistic)">
+            <span class="label">About Me</span>
+          </button>
+
+          <button class="orbit-item" data-target="career" aria-label="My Career">
+            <img class="real-icon" src="https://via.placeholder.com/120x120.png?text=Icon+Realistic+Career" alt="Career Icon (realistic)">
+            <span class="label">My Career</span>
+          </button>
+
+          <button class="orbit-item" data-target="documents" aria-label="My Documents">
+            <img class="real-icon" src="https://via.placeholder.com/120x120.png?text=Icon+Realistic+Docs" alt="Documents Icon (realistic)">
+            <span class="label">My Documents</span>
+          </button>
+
+          <button class="orbit-item" data-target="social" aria-label="Social Media">
+            <img class="real-icon" src="https://via.placeholder.com/120x120.png?text=Icon+Realistic+Social" alt="Social Icon (realistic)">
+            <span class="label">Social</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content panels -->
+    <section id="panels" class="panels">
+
+      <!-- About Me -->
+      <article id="about" class="panel" data-panel="about" aria-hidden="true">
+        <h2>About Me</h2>
+        <div class="card">
+          <p>
+            Saya saat ini merupakan mahasiswa UNIVERSITAS KOMPUTAMA CILACAP, selama berkuliah disini saya sudah dapat melakukan coding menggunakan borland c++, python visual studio code, membuat desain di figma, membuat website dengan Google Sites dan Blogger, serta saya juga bisa editing cinematic video.
+          </p>
+        </div>
+      </article>
+
+      <!-- My Career -->
+      <article id="career" class="panel" data-panel="career" aria-hidden="true">
+        <h2>My Career</h2>
+        <div class="grid career-grid">
+          <div class="card career-card">
+            <img src="https://via.placeholder.com/640x400.png?text=Career+1+-+futuristic+workspace+with+multiple+neon+screens+showing+code" alt="Career 1">
+            <h3>Software Development Journey</h3>
+            <p>Built foundational programming skills and launched small projects with a neon-lit, modern workflow.</p>
+          </div>
+
+          <div class="card career-card">
+            <img src="https://via.placeholder.com/640x400.png?text=Career+2+-+cinematic+video+editing+timeline+in+futuristic+studio" alt="Career 2">
+            <h3>Cinematic Video Production</h3>
+            <p>Edited cinematic sequences combining storytelling and tight technical post-production techniques.</p>
+          </div>
+
+          <div class="card career-card">
+            <img src="https://via.placeholder.com/640x400.png?text=Career+3+-+digital+design+interface+in+neon+cyberpunk+city" alt="Career 3">
+            <h3>UI/UX & Graphic Design</h3>
+            <p>Designed vibrant interfaces and prototypes using modern design tools with a futuristic aesthetic.</p>
+          </div>
+
+          <div class="card career-card">
+            <img src="https://via.placeholder.com/640x400.png?text=Career+4+-+collaborative+team+in+neon+hackathon+space" alt="Career 4">
+            <h3>Team Collaboration</h3>
+            <p>Worked in collaborative coding sessions and group projects, focusing on clean code and rapid iteration.</p>
+          </div>
+
+          <div class="card career-card">
+            <img src="https://via.placeholder.com/640x400.png?text=Career+5+-+ai+assisted+development+workflow+in+neon+lab" alt="Career 5">
+            <h3>AI-Enhanced Workflows</h3>
+            <p>Explored AI tools to augment the creative and development process — accelerating prototyping and design.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- My Documents -->
+      <article id="documents" class="panel" data-panel="documents" aria-hidden="true">
+        <h2>My Documents</h2>
+        <div class="grid docs-grid">
+          <div class="doc card">
+            <img src="https://via.placeholder.com/480x320.png?text=Doc+1+-+glowing+futuristic+diploma" alt="Document CV">
+            <h3>CV</h3>
+            <div class="doc-actions">
+              <a class="btn view" href="https://via.placeholder.com/1280x720.png?text=CV+-+Preview" target="_blank" rel="noopener">View</a>
+              <a class="btn download" href="https://via.placeholder.com/1280x720.png?text=CV+-+Download" download="Gitin_CV.png">Download</a>
+            </div>
+          </div>
+
+          <div class="doc card">
+            <img src="https://via.placeholder.com/480x320.png?text=Doc+2+-+secure+digital+data+archive+interface" alt="C++ Certification">
+            <h3>C++ Certification</h3>
+            <div class="doc-actions">
+              <a class="btn view" href="https://via.placeholder.com/1280x720.png?text=C%2B%2B+Cert+-+Preview" target="_blank" rel="noopener">View</a>
+              <a class="btn download" href="https://via.placeholder.com/1280x720.png?text=C%2B%2B+Cert+-+Download" download="C++_Certificate.png">Download</a>
+            </div>
+          </div>
+
+          <div class="doc card">
+            <img src="https://via.placeholder.com/480x320.png?text=Doc+3+-+digital+certificate+icon+in+high-tech+data+hub" alt="Design Portfolio">
+            <h3>Design Portfolio</h3>
+            <div class="doc-actions">
+              <a class="btn view" href="https://via.placeholder.com/1280x720.png?text=Design+Portfolio+-+Preview" target="_blank" rel="noopener">View</a>
+              <a class="btn download" href="https://via.placeholder.com/1280x720.png?text=Design+Portfolio+-+Download" download="Design_Portfolio.png">Download</a>
+            </div>
+          </div>
+
+          <div class="doc card">
+            <img src="https://via.placeholder.com/480x320.png?text=Doc+4+-+secure+certificate+neon+seal" alt="Video Reel">
+            <h3>Video Reel</h3>
+            <div class="doc-actions">
+              <a class="btn view" href="https://via.placeholder.com/1280x720.png?text=Video+Reel+-+Preview" target="_blank" rel="noopener">View</a>
+              <a class="btn download" href="https://via.placeholder.com/1280x720.png?text=Video+Reel+-+Download" download="Video_Reel.mp4">Download</a>
+            </div>
+          </div>
+
+          <div class="doc card">
+            <img src="https://via.placeholder.com/480x320.png?text=Doc+5+-+encrypted+digital+diploma+neon" alt="Achievement">
+            <h3>Achievement</h3>
+            <div class="doc-actions">
+              <a class="btn view" href="https://via.placeholder.com/1280x720.png?text=Achievement+-+Preview" target="_blank" rel="noopener">View</a>
+              <a class="btn download" href="https://via.placeholder.com/1280x720.png?text=Achievement+-+Download" download="Achievement.png">Download</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Social Media -->
+      <article id="social" class="panel" data-panel="social" aria-hidden="true">
+        <h2>Social Media</h2>
+        <div class="socials">
+          <a class="s-btn tiktok" href="https://www.tiktok.com/@thisfdlh" target="_blank" rel="noopener">
+            <i class="fab fa-tiktok"></i>
+            <span>@thisfdlh</span>
+          </a>
+
+          <a class="s-btn instagram" href="https://www.instagram.com/this_githin_" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+            <span>@this_githin_</span>
+          </a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> GITIN ARIFYSA FADILAH — Neon Blue Portfolio</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
